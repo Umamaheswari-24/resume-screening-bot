@@ -1,0 +1,33 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Resume Screening Bot</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>Resume Screening Bot</h1>
+
+    <label for="jobDesc">Job Description:</label>
+    <textarea id="jobDesc" rows="5" placeholder="Paste job description here..."></textarea>
+
+    <label for="resume1">Resume 1:</label>
+    <textarea class="resume" rows="5" placeholder="Paste resume text here..."></textarea>
+
+    <label for="resume2">Resume 2:</label>
+    <textarea class="resume" rows="5" placeholder="Paste resume text here..."></textarea>
+
+    <label for="resume3">Resume 3:</label>
+    <textarea class="resume" rows="5" placeholder="Paste resume text here..."></textarea>
+
+    <button onclick="rankResumes()">Rank Resumes</button>
+
+    <div id="results"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
